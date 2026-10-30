@@ -1,0 +1,12 @@
+{
+  "name": "game-backend-change-watch",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/watch_game_backend.ts",
+    "test": "node --experimental-strip-types test/game_watch_decision.test.ts"
+  }
+}

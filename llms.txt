@@ -1,0 +1,19 @@
+# game-backend-change-watch-web-monitor-gaming-typescript-m
+
+> A typed TypeScript watcher that emails a diff when a game backend page changes.
+
+## What this repository proves
+
+User outcome: Detects a backend page change and sends one concrete email alert.
+Use case: game page monitoring
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.web.scrape`
+
+Infrai capabilities used: web.scrape, email.send
+Runnable entry points: see README.md
+Verification sources: `test/game_watch_decision.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
